@@ -1,0 +1,13 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "jupyter.kernels.excludePythonEnvironments": [
+    "/opt/homebrew/bin/python3.12",
+    "/opt/homebrew/bin/python3",
+    "/opt/homebrew/bin/python3.14",
+    "/usr/bin/python3",
+    "/usr/local/bin/python3",
+    "/usr/local/bin/python3.14",
+    "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+    "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3.14"
+  ]
+}
