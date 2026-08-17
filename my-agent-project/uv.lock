@@ -613,21 +613,17 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "nooa", specifier = ">=0.0.8" }]
+requires-dist = [{ name = "nooa", git = "https://github.com/NVIDIA-NeMo/labs-OO-Agents.git?rev=main" }]
 
 [[package]]
 name = "nooa"
-version = "0.0.8"
-source = { registry = "https://pypi.org/simple" }
+version = "0.0.9.dev69"
+source = { git = "https://github.com/NVIDIA-NeMo/labs-OO-Agents.git?rev=main#6b522b7ab6b2239455c86503bfbff3e82ffc3620" }
 dependencies = [
     { name = "httpx" },
     { name = "litellm" },
     { name = "openinference-instrumentation-litellm" },
     { name = "pydantic" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/35/33/a0aa8ed5b3fbf78b72bddc8c3b184ea5cf2e2d9c03128e8375dbd74df9a2/nooa-0.0.8.tar.gz", hash = "sha256:59e36e150fe8ac96122f6d129cc60b68ba82355f568ea409624102ec9150613f", size = 2825643, upload-time = "2026-07-30T07:32:12.441Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/cd/3b/921df5aa96d79f1bed2defda8e09f2768c62cdeeb7e14026d43a36093aa9/nooa-0.0.8-py3-none-any.whl", hash = "sha256:c4a4a458acf524ccbbbf4b649aabdf0281973f6767140ac92d3e144b13414c99", size = 1085740, upload-time = "2026-07-30T07:32:14.117Z" },
 ]
 
 [[package]]
